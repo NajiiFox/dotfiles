@@ -2,11 +2,6 @@
 
 echo "RUNNING dotfiles repo install.sh"
 
-echo "STEP 1: 💾 copying .gitconfig and .gitignore_global"
-cp -r ./git/.gitconfig ./git/.gitignore_global ~
-
-
-
 export PATH_CS_=1"$HOME/.local/share/code-server"
 PATH_CS_2="$HOME/.local/share/code-server/User"
 export PATH_VS_1="$HOME/Library/Application Support/Code/User"
@@ -17,7 +12,7 @@ COMMAND_K="cp ./Code/User/keybindings.json"
 COMMAND_T="cp ./Code/User/tasks.json"
 
 echo "🐚 Shell is $SHELL"
-echo "STEP 2: 💾 copying shell configuration files e.g., bash, fish, zsh"
+echo "STEP 1: 💾 copying shell configuration files e.g., bash, fish, zsh"
 
 if [ "$SHELL" == "/bin/bash" ]; then 
   cp ./shell/bash/.bashrc $HOME/.bashrc
@@ -30,7 +25,7 @@ else
   echo "no unix shell dotfiles copied"
 fi
 
-echo "STEP 3: 💾 copying VS Code-related config files e.g., settings, keybindings, tasks"
+echo "STEP 2: 💾 copying VS Code-related config files e.g., settings, keybindings, tasks"
 
 if [ -d "$PATH_VSCS_1" ]; then
     echo 'Microsoft VS Code Server CLI serve-web found'
