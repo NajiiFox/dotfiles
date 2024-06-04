@@ -21,4 +21,8 @@
 	},
 	"diffEditor.ignoreTrimWhitespace": false,
 	"github.copilot.editor.enableAutoCompletions": true,
+	"workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+	"workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+	"redhat.telemetry.enabled": false,
+	"terminal.integrated.defaultProfile.linux": "zsh",
 }
