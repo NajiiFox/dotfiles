@@ -1,1 +1,11 @@
-rust-lang.rust-analyzer
+pinage404.rust-extension-pack
+monokai.theme-monokai-pro-vscode
+christian-kohler.path-intellisense
+formulahendry.auto-close-tag
+redwan-hossain.auto-rename-tag-clone
+tamasfe.even-better-toml
+fluent-vue.fluent-vue
+eamodio.gitlens
+esbenp.prettier-vscode
+Vue.volar
+redhat.vscode-yaml
