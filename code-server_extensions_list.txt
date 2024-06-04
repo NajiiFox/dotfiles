@@ -9,3 +9,5 @@ eamodio.gitlens
 esbenp.prettier-vscode
 Vue.volar
 redhat.vscode-yaml
+GitHub.copilot.vsix
+jinxdash.prettier-rust.vsix
