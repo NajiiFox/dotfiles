@@ -14,7 +14,3 @@ do
     $EXT_BINARY --install-extension "$extension" --force
 done < "$EXTENSIONS_FILE"
 
-# Manual download and install vsix
-
-curl -o GitHub.copilot.vsix https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot/1.198.0/vspackage
-$EXT_BINARY --install-extension GitHub.copilot.vsix --force
